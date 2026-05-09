@@ -1,6 +1,6 @@
 # 🚀 Projeto Linux IaC — Estrutura Automatizada de Usuários, Diretórios e Permissões
 
-##📌 Visão Geral
+## 📌 Visão Geral
 
 Este projeto implementa o conceito de Infraestrutura como Código (IaC) em ambientes Linux através de um script Bash robusto, organizado e reutilizável.
 
@@ -17,7 +17,7 @@ O script automatiza:
 -Validações de ambiente
 -Idempotência parcial
 
-##🧠 Objetivo do Projeto
+## 🧠 Objetivo do Projeto
 
 Automatizar completamente a configuração inicial de uma máquina Linux para ambientes corporativos.
 
@@ -28,7 +28,7 @@ Isso reduz:
 -Problemas de permissões
 -Inconsistências entre ambientes
 
-##🏗️ Estrutura Organizacional Simulada
+## 🏗️ Estrutura Organizacional Simulada
 
 O projeto simula uma empresa com três departamentos:
 
@@ -38,38 +38,38 @@ Administração	GRP_ADM
 Vendas	        GRP_VEN
 Segurança/TI	GRP_SEC
 
-##📂 Estrutura de Diretórios
+## 📂 Estrutura de Diretórios
 
 /publico
 /adm
 /ven
 /sec
 
-##👥 Usuários Criados
+## 👥 Usuários Criados
 
-###Administração
+### Administração
 -carlos
 -maria
 -joao
 
-###Vendas
+### Vendas
 -debora
 -sebastiana
 -roberto
 
-###Segurança/TI
+### Segurança/TI
 -josefina
 -amanda
 -rogerio
 
-##🔐 Política de Permissões
+## 🔐 Política de Permissões
 Diretório	    Permissão
 /publico	    Todos acessam
 /adm	        Apenas grupo ADM
 /ven	        Apenas grupo VEN
 /sec	        Apenas grupo SEC
 
-##⚙️ Tecnologias Utilizadas
+## ⚙️ Tecnologias Utilizadas
 -Linux
 -Bash Script
 -Git
