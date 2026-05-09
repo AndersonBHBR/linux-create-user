@@ -8,14 +8,14 @@ A proposta vai além do desafio original e aplica práticas inspiradas em ambien
 
 O script automatiza:
 
--Criação de diretórios corporativos
--Criação de grupos
--Criação de usuários
--Definição de permissões
--Segurança básica
--Logs de execução
--Validações de ambiente
--Idempotência parcial
+- Criação de diretórios corporativos
+- Criação de grupos
+- Criação de usuários
+- Definição de permissões
+- Segurança básica
+- Logs de execução
+- Validações de ambiente
+- Idempotência parcial
 
 ## 🧠 Objetivo do Projeto
 
@@ -23,10 +23,10 @@ Automatizar completamente a configuração inicial de uma máquina Linux para am
 
 Isso reduz:
 
--Erros humanos
--Tempo de provisionamento
--Problemas de permissões
--Inconsistências entre ambientes
+- Erros humanos
+- Tempo de provisionamento
+- Problemas de permissões
+- Inconsistências entre ambientes
 
 ## 🏗️ Estrutura Organizacional Simulada
 
@@ -48,19 +48,19 @@ Segurança/TI	GRP_SEC
 ## 👥 Usuários Criados
 
 ### Administração
--carlos
--maria
--joao
+- carlos
+- maria
+- joao
 
 ### Vendas
--debora
--sebastiana
--roberto
+- debora
+- sebastiana
+- roberto
 
 ### Segurança/TI
--josefina
--amanda
--rogerio
+- josefina
+- amanda
+- rogerio
 
 ## 🔐 Política de Permissões
 Diretório	    Permissão
@@ -70,10 +70,10 @@ Diretório	    Permissão
 /sec	        Apenas grupo SEC
 
 ## ⚙️ Tecnologias Utilizadas
--Linux
--Bash Script
--Git
--GitHub
+- Linux
+- Bash Script
+- Git
+- GitHub
 
 ## 🙋 Sobre o Autor
 
